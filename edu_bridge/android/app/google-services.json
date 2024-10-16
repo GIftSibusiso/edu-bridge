@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "685788441650",
+    "project_id": "edu-bridge-e58f4",
+    "storage_bucket": "edu-bridge-e58f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685788441650:android:1dda37ee9de6860933a02b",
+        "android_client_info": {
+          "package_name": "com.example.edu_bridge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsX8AFAoylPTUdDkCiOJUzdVjpwPsWDDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
