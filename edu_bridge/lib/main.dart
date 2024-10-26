@@ -1,7 +1,7 @@
 import 'package:edu_bridge/pages/sign_in.dart';
-import 'package:edu_bridge/pages/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
@@ -37,6 +37,8 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        textTheme:
+            GoogleFonts.robotoTextTheme(), // Sets Roboto as the default font
       ),
       home: SignInPage(),
     );
